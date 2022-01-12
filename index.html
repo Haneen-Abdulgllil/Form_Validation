@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+        <button onclick="DarkLightMode()"><img src="DL.png"></button>
+    <div class="container">
+            <h1>Registration</h1>
+        <form id="form" action="/">
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Confirmed Password</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="age">Age</label>
+                <input id="age"name="age" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="phone">Phone</label>
+                <input id="phone"name="phone" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="url">URL</label>
+                <input id="url" name="url" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="textarea">Message</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                <div class="error"></div>
+            </div> 
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+   
+
+
+    <script src="app.js"></script>
+</body>
+</html>
